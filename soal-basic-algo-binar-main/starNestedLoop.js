@@ -10,7 +10,7 @@ function starNestedLoop(n, m) {
     let res = ""
 
     // Type checking
-    if (typeof n !== "number" && typeof m !== "number") 
+    if (typeof n !== "number" || typeof m !== "number") 
         return
 
     for (let i = 0; i < m; i++) {
