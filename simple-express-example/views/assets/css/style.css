@@ -1,0 +1,135 @@
+:root {
+    --green1: #197c4f;
+    --gray1: rgb(247, 247, 247);
+    --footer-bg: #212121;
+    --gold1: rgb(175, 134, 47);
+    --border1: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #414141;
+}
+
+p.reset {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+main {
+    min-height: 100vh;
+}
+
+a.link-unstyled {
+    text-decoration: none !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 2em;
+    box-shadow: 0px 5px 30px -14px rgba(0,0,0,0.10) !important;
+    border: none !important;
+    border-radius: 0.5rem !important;
+}
+
+/** Breakpoint lg **/
+/* @media (min-width: 992px) {
+    .navbar {
+        flex-direction: column !important;
+    }
+} */
+
+/** Profile **/
+/** https://cssgradient.io/gradient-backgrounds/ **/
+.gradient-1 {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+.gradient-2 {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.gradient-3 {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.img-profile {
+    width:150px;
+    height:150px; 
+    z-index: 2;
+}
+.bg-profile {
+    top: 0; 
+    height: 140px; 
+    width: 100%; 
+    position: absolute;
+}
+
+/** Image Transform **/
+
+.greynya {
+    color: #414141!important;
+}
+
+/*
+  Navbar
+*/
+.navbar-dark .nav-link {
+    color: #414141 !important;
+}
+.navbar-dark span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/** Nav Toogler Style**/
+.navbar-light .navbar-toggler, .navbar-dark .navbar-toggler  {
+    border: none !important;
+}
+
+.navbar-light {
+    background-color: white !important;
+}
+.navbar-light span.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,0,0,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-light .nav-link {
+    color: black !important;
+}
+
+.btn-radius-xl {
+    color: var(--green1) !important;
+    border-radius: 1.5rem !important;
+}
+.btn-radius-xl:hover {
+    color: white !important;
+    border-radius: 1.5rem !important;
+}
+
+/*
+  Banner
+*/
+.back-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.carousel .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+}
+
+/*
+ Footer
+*/
